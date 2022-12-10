@@ -18,10 +18,20 @@
     "url": "https://github.com/IvanPanin675/goit-js-hw-11/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@vimeo/player": "^2.18.0",
+    "axios": "^1.2.0",
+    "flatpickr": "^4.6.13",
+    "infinite-scroll": "^4.0.1",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
+    "only-scrollbar": "^0.3.7",
+    "simplelightbox": "^2.10.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
