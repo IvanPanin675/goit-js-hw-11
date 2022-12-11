@@ -37,12 +37,12 @@ async function handleSubmit(e) {
   const form = e.currentTarget;
   const searchQuery = form.elements.searchQuery.value.trim();
   if (searchQuery === '') return;
-  if (searchQuery !== query) {
+  // if (searchQuery !== query) {
     refs.gallery.innerHTML = '';
     query = searchQuery;
     _page = 1;
     form.reset();
-  }
+  // }
 
   await fetchImage(query, _page, _per_page)
     .then(data => {
